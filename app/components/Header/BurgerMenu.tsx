@@ -6,10 +6,10 @@ const BurgerMenu = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="relative w-full">
+    <div className="absolute z-10 w-full">
       <button onClick={() => setOpen(!open)} className="relative w-8 h-8 m-3">
         <div
-          className={`transition-transform duration-300 ${
+          className={`transition-transform duration-500 ${
             open ? "rotate-90" : ""
           } relative w-full h-full`}
         >

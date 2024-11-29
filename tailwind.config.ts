@@ -11,7 +11,7 @@ export default {
       colors: {
         white: "#FFFFFF",
         black: "#00000",
-        violet: "#4B3F72",
+        violet: "#B892FF",
         torquoise: "#84E6F8",
         lightPink: "#F7CACD",
         cream: "#EFC88B",
