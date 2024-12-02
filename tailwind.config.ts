@@ -19,12 +19,18 @@ export default {
       },
       animation: {
         fade: "fadeIn 1s ease-in-out",
+        typewriter: "typewriter 1s steps(20) forwards",
       },
 
       keyframes: {
         fadeIn: {
           from: { opacity: "0" },
           to: { opacity: "1" },
+        },
+        typewriter: {
+          to: {
+            left: "100%",
+          },
         },
       },
     },

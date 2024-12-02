@@ -26,7 +26,7 @@ const HeroInfo = () => {
         <p className="text-sm md:text-base font-semibold absolute z-20 top-2 left-3">
           Software Engineer
         </p>
-        <h1 className="text-3xl text-white animate-fade transition-all duration-700">
+        <h1 className="text-3xl relative w-[max-content] text-white before:absolute before:inset-0 before:animate-typewriter before:bg-violet">
           <span className="font-thin opacity-90">
             I'm, <br />
           </span>
