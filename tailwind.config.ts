@@ -15,7 +15,17 @@ export default {
         torquoise: "#84E6F8",
         lightPink: "#F7CACD",
         cream: "#EFC88B",
-        rose: "#ßEA638C",
+        rose: "#DE639A",
+      },
+      animation: {
+        fade: "fadeIn 1s ease-in-out",
+      },
+
+      keyframes: {
+        fadeIn: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
       },
     },
   },
