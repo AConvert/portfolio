@@ -9,7 +9,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        matter: ["var(--matter)"],
+        matter: ["var(--matter)", "sans-serif"],
+      },
+      colors: {
+        white: "#f9f8f6",
+        black: "#000000",
+        purple: "#5c54f9",
       },
     },
   },
